@@ -6,6 +6,7 @@ const myInput = document.getElementById('myInput')
 
 
 
+
 $(".enviar").on("click", function() {
     alert("Datos enviados correctamente!!!");
 })

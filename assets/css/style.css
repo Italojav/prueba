@@ -16,8 +16,8 @@
     text-align: left;
 }
 
+.texto,
 p,
-i,
-.texto {
+i {
     color: #fff;
 }
