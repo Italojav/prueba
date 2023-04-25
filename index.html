@@ -35,7 +35,7 @@
                     <div class="collapse navbar-collapse " id="navbarNav ">
                         <ul class="navbar-nav ms-auto ">
                             <li class="nav-item ">
-                                <button class="main nav-link text-white " href="#">Inicio</button>
+                                <button class="main nav-link text-white" href="# ">Inicio</button>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link text-white " href="#quienes ">Quienes Somos</a>
@@ -79,7 +79,7 @@
         <div class="container-fluid  bg-black " data-toggle=”collapse”>
             <section>
                 <div class="container d-none d-sm-block">
-                    <h3 class="texto text-center p-4" id="quienes">¿QUIENES SOMOS?</h3>
+                    <h3 class="texto text-center mt-4" id="quienes">¿QUIENES SOMOS?</h3>
                     <div class="row">
                         <div class="col-4 text-center">
                             <div class="container-fluid bg-primary " data-toggle=”collapse”>
@@ -112,10 +112,10 @@
             <section class="container-fluid tarjetas ">
                 <div>
                     <div class="container ">
-                        <h3 class="texto texto-sd-none text-center py-4" id="destacados">DESTACADOS</h3>
+                        <h3 class="texto texto-sd-none text-center mt-4" id="destacados">DESTACADOS</h3>
                         <div class="row text-center ">
-                            <div class="col-3 ">
-                                <div class="card " style="width: 100% ">
+                            <div class="col-3">
+                                <div class="card" style="width: 100%">
                                     <img src="assets/img/card1.jpg " class="card-img-top " alt="... ">
                                     <div class="card-body bg-info ">
                                         <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eos minus sapiente exercitationem delectus ipsam commodi consequuntur corporis sequi perspiciatis.</p>
@@ -154,7 +154,7 @@
             <section class="container-fluid">
                 <div>
                     <div class="container ">
-                        <h3 class="texto text-center py-4" id="contacto">CONTACTO</h3>
+                        <h3 class="texto text-center mt-4" id="contacto">CONTACTO</h3>
                         <div class="row text-white ">
                             <div class="mb-3 ">
                                 <label for="exampleFormControlInput1 " class="form-label ">Nombre</label>
@@ -178,31 +178,31 @@
             <div class="container-fluid bg-primary ">
                 <div class="row text-center">
                     <div class="col-6">
-                        <h2 class="text-white mt-4 text-center ">VIAJES CHILE</h2>
+                        <h5 class="text-white mt-4 text-center ">VIAJES CHILE</h5>
                     </div>
                     <div class="col-6">
                         <div class="row text-center mt-4">
                             <div class="col-2 ">
                                 <i class="fa fa-brands fa-github fa-2xl"></i>
-                                <a href="https://www.github.com">
+                                <a class="data-bs-toggle=" modal " data-bs-target="#exampleModal " href="https://www.github.com " >
                                     <p> Github</p>
                                 </a>
                             </div>
                             <div class="col-2 ">
-                                <i class="fa-brands fa-linkedin fa-2xl" href="https://www.linkedin.com"></i>
-                                <a href="https://www.linkedin.com">
+                                <i class="fa-brands fa-linkedin fa-2xl " href="https://www.linkedin.com "></i>
+                                <a href="https://www.linkedin.com ">
                                     <p>Linkedin</p>
                                 </a>
                             </div>
                             <div class="col-2 ">
-                                <i class="fa-brands fa-twitter fa-2xl " href="https://twitter.com/"></i>
-                                <a href="https://www.twitter.com">
+                                <i class="fa-brands fa-twitter fa-2xl " href="https://twitter.com/ "></i>
+                                <a href="https://www.twitter.com ">
                                     <p>Twitter</p>
                                 </a>
                             </div>
                             <div class="col-2 ">
-                                <i class="fa-brands fa-facebook fa-2xl" href="https://www.facebook.com/"></i>
-                                <a href="https://www.facebook.com">
+                                <i class="fa-brands fa-facebook fa-2xl " href="https://www.facebook.com/ "></i>
+                                <a href="https://www.facebook.com ">
                                     <p>Facebook</p>
                                 </a>
                             </div>
@@ -213,6 +213,24 @@
 
         </footer>
     </div>
+    <!-- Modal -->
+<div class="modal fade " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+    <div class="modal-dialog ">
+    <div class="modal-content ">
+        <div class="modal-header ">
+        <h1 class="modal-title fs-5 " id="exampleModalLabel ">Modal title</h1>
+        <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+        </div>
+        <div class="modal-body ">
+        ...
+        </div>
+        <div class="modal-footer ">
+        <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
+        <button type="button " class="btn btn-primary ">Save changes</button>
+        </div>
+</div>
+    </div>
+</div>
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js " integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin=" anonymous "></script>
 
